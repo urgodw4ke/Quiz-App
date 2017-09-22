@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.android.quizapp.QuizApp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/President"
+                    style="@style/historyQuestion"
+                    android:text="@string/questionOne" />
+
+
+                <CheckBox
+                    android:id="@+id/lincoln_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+                    android:text="@string/Lincoln" />
+
+
+                <TextView
+                    android:id="@+id/correctone_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/washington_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:text="@string/Washington" />
+
+                <TextView
+                    android:id="@+id/correcttwo_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/franklin_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:text="@string/Franklin" />
+
+                <TextView
+                    android:id="@+id/wrongone_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/hamilton_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:text="@string/Hamilton" />
+
+                <TextView
+                    android:id="@+id/wrongtwo_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <TextView
+                    android:id="@+id/Slavery"
+
+                    style="@style/historyQuestion"
+                    android:layout_margin="3dp"
+                    android:text="@string/questionTwo" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupSlavery"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/fiftySix_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+                        android:text="@string/FiftySix" />
+
+                    <TextView
+                        android:id="@+id/wrongthree_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/eightyfive_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/EightyFive" />
+
+                    <TextView
+                        android:id="@+id/wrongfour_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/seventytwo_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/SeventyTwo" />
+
+                    <TextView
+                        android:id="@+id/wrongfive_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/sixtyFive_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/SixtyFive" />
+
+                    <TextView
+                        android:id="@+id/correctthree_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/alcohol"
+
+                    style="@style/historyQuestion"
+                    android:text="@string/questionThree" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupAlcohol"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/february_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+                        android:text="@string/February" />
+
+                    <TextView
+                        android:id="@+id/wrongsix_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/december_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/December" />
+
+
+                    <TextView
+                        android:id="@+id/wrongseven_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/january_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/January" />
+
+                    <TextView
+                        android:id="@+id/correctfour_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/november_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/November" />
+
+
+                    <TextView
+                        android:id="@+id/wrongeight_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Declaration"
+
+                    style="@style/historyQuestion"
+                    android:text="@string/questionFour" />
+
+                <CheckBox
+                    android:id="@+id/jackson_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+                    android:text="@string/AndrewJackson" />
+
+
+                <TextView
+                    android:id="@+id/wrongnine_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/hancock_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="@string/JohnHancock" />
+
+
+                <TextView
+                    android:id="@+id/correctfive_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/madison_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="@string/JamesMadison" />
+
+                <TextView
+                    android:id="@+id/wrongten_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <CheckBox
+                    android:id="@+id/adams_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:text="@string/JohnAdams" />
+
+                <TextView
+                    android:id="@+id/correctsix_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/Answer" />
+
+                <TextView
+                    android:id="@+id/African"
+
+                    style="@style/historyQuestion"
+                    android:text="@string/questionFive" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupPresident"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/mlk_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+                        android:text="@string/Martin" />
+
+                    <TextView
+                        android:id="@+id/wrongeleven_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/obama_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+
+                        android:text="@string/Obama" />
+
+                    <TextView
+                        android:id="@+id/correctseven_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/powell_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Powell" />
+
+                    <TextView
+                        android:id="@+id/wrongtweleve_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/malcom_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Malcom" />
+
+                    <TextView
+                        android:id="@+id/wrongthirteen_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+                </RadioGroup>
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroupFlag"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/Stripes"
+                        style="@style/historyQuestion"
+                        android:text="@string/questionSix" />
+
+
+                    <RadioButton
+                        android:id="@+id/nine_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Nine" />
+
+                    <TextView
+                        android:id="@+id/wrongfourteen_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/seven_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Seven" />
+
+                    <TextView
+                        android:id="@+id/wrongfifteen_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/eleven_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Eleven" />
+
+
+                    <TextView
+                        android:id="@+id/wrongsixteen_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+                    <RadioButton
+                        android:id="@+id/thirteen_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="@string/Thirteen" />
+
+                    <TextView
+                        android:id="@+id/correcteight_text_view"
+                        style="@style/hiddenAnswer"
+                        android:text="@string/Answer" />
+
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/Meaning"
+                    style="@style/historyQuestion"
+                    android:text="@string/questionSeven" />
+
+                <EditText
+                    android:id="@+id/editTextBonus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/bonusQuestion" />
+
+
+                <TextView
+                    android:id="@+id/bonus_text_view"
+                    style="@style/hiddenAnswer"
+                    android:text="@string/bonus" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/reset_button_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:onClick="resetAnswer"
+                        android:text="@string/Reset" />
+
+                    <Button
+                        android:id="@+id/answer_button_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="16dp"
+                        android:onClick="submitAnswer"
+                        android:text="@string/Submit" />
+
+                    <TextView
+                        android:id="@+id/results_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/Results"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+</ScrollView>
+
