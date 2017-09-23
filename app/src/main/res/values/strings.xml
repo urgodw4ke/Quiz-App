@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="Answer">Answer</string>
+
+    <string name="Wrong">Wrong</string>
+
+    <string name="Correct">Correct</string>
+
+    <string name="Submit">Submit</string>
+
+    <string name="Reset">Reset</string>
+
+    <string name="Results">Results</string>
+
+    <string name="questionOne">1. Which two presidents are on both forms of U.S. Currency?</string>
+
+        <string name="Lincoln">"A. Abraham Lincoln"</string>
+
+            <string name="Washington">B. George Washington</string>
+
+                <string name="Franklin">C. Benjamin Franklin</string>
+
+                    <string name="Hamilton">D. Alexander Hamilton</string>
+
+    <string name="questionTwo">2. When did America abolish slavery?</string>
+
+        <string name="FiftySix">A. 1856</string>
+
+            <string name="EightyFive">"B. 1785" </string>
+
+                <string name="SeventyTwo">"C. 1872"</string>
+
+                    <string name="SixtyFive">"D. 1865"</string>
+    <string name="questionThree">3. When was Alcohol banned in the USA?</string>
+
+        <string name="February">"A. February 1921"</string>
+
+            <string name="December">"B. December 1921"</string>
+
+                <string name="January">"C. January 1920"</string>
+
+                    <string name="November">"D. November 1920"</string>
+    <string name="questionFour">4. Who signed the Declaration of Independence ?</string>
+
+        <string name="AndrewJackson">"A. Andrew Jackson"</string>
+
+            <string name="JohnHancock">"B. John Hancock"</string>
+
+                <string name="JamesMadison">"C. James Madison"</string>
+
+                    <string name="JohnAdams">"D. John Adams"</string>
+    <string name="questionFive">5. Who was the first African American President?</string>
+
+        <string name="Martin">"A. Martin Luther King"</string>
+
+            <string name="Obama">"B. Barak Obama"</string>
+
+                <string name="Powell">"C. Colin Powell"</string>
+
+                    <string name="Malcom">"D. Malcolm X"</string>
+    <string name="questionSix">6. 6. How many stripes are on the American Flag?</string>
+
+        <string name="Nine">"A. 9"</string>
+
+            <string name="Seven">"B. 7"</string>
+
+                <string name="Eleven">"C. 11"</string>
+
+                    <string name="Thirteen">"D. 13"</string>
+
+                    <string name="Seventy">"D. 70"</string>
+    <string name="questionSeven">7. What do the stripes stand for on the American Flag?</string>
+
+        <string name="bonus">"Bonus Question!!!</string>
+            <string name="bonusQuestion"> "Input Your Answer here!</string>
+
+
+
+</resources>
